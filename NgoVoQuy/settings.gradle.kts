@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NgoVoQuy"
+rootProject.name = "KotlinForAndroid"
 include(":app")
  

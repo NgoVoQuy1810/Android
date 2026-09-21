@@ -3,16 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ngovoquy"
+    namespace = "com.ute.kotlinforandroid"
     compileSdk {
         version = release(37)
-        buildFeatures {
-            viewBinding = true
-        }
     }
 
     defaultConfig {
-        applicationId = "com.example.ngovoquy"
+        applicationId = "com.ute.kotlinforandroid"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -20,7 +17,9 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    buildFeatures {
+        viewBinding = true
+    }
     buildTypes {
         release {
             optimization {
